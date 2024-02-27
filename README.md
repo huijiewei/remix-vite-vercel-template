@@ -32,7 +32,16 @@ Document: [vercel-serverless-adapter](https://github.com/huijiewei/resolid-remix
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhuijiewei%2Fremix-vite-vercel-template&project-name=remix-vite-vercel-template&repository-name=remix-vite-vercel)
 
+Change `Build and Output Settings`
 
+override `Output Directory`
+
+```
+build/client
+```
+
+> init deploy will fail, you can goto project settings to set node.js version to 20.x
+> then goto Deployments tab choose fail deploy and redeploy it.
 
 ### DIY
 
