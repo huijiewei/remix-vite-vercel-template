@@ -8,9 +8,6 @@ export default defineConfig({
         presets: [
             vercelServerlessPreset({
                 regions: "iad1",
-                cleanUrls: true,
-                cacheFiles: ["favicon.svg", "apple-touch-icon.png", "manifest.webmanifest"],
-                cacheFolders: ["icons", "images"],
             })
         ]
     }), tsconfigPaths()],
