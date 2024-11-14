@@ -20,9 +20,7 @@ override `Output Directory`
 build/client
 ```
 
-> init deploy will be fail, because vercel default use nodejs 18.x, you can goto project settings to set node.js version to 20.x, then goto Deployments tab choose fail deploy and redeploy it.
-
-Document: [vercel-serverless-adapter](https://github.com/huijiewei/resolid-remix-plugins?tab=readme-ov-file#vercel-serverless-adapter)
+Document: [vercel-serve](https://github.com/huijiewei/resolid-remix-plugins?tab=readme-ov-file#vercel-serve)
 
 ---
 
@@ -30,18 +28,18 @@ Document: [vercel-serverless-adapter](https://github.com/huijiewei/resolid-remix
 
 ## Development
 
-Run the Vite dev server:
+Run the dev server:
 
 ```shellscript
 npm run dev
 ```
 
-## Deployment
+## Node Deployment
 
 First, build your app for production:
 
 ```sh
-npm run build
+npm run build:node
 ```
 
 Then run the app in production mode at local:
